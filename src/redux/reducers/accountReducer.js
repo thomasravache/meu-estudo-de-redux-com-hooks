@@ -1,7 +1,7 @@
-import { DEPOSITAR, SACAR } from "../actionTypes/accountTypes";
+import { DEPOSITAR, SACAR } from "../actionTypes/accountActionTypes";
 
 const INITIAL_STATE = {
-  saldo: 0
+  saldo: 0,
 };
 
 const accountReducer = (state = INITIAL_STATE, action) => {
